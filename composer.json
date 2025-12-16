@@ -1,7 +1,7 @@
 {
     "name": "nexa/framework",
     "description": "The Nexa Framework Kernel",
-    "type": "library",
+    "type": "library1",
     "license": "MIT",
     "authors": [
         {
