@@ -1,0 +1,25 @@
+{
+    "name": "nexa/framework",
+    "description": "The Nexa Framework Kernel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nexa Developer",
+            "email": "dev@nexa.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/",
+            "Illuminate\\": "src/Illuminate/",
+            "Inertia\\": "src/Inertia/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^8.2"
+    }
+}
